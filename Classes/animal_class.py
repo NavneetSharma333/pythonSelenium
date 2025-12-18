@@ -18,11 +18,20 @@ class animal:
         print("animal can breathe")
         
         
-my_animal_1 = animal("white", "Veggies")
-print(f"color of animal 1: {my_animal_1.rang}")
-my_animal_1.move()
-my_animal_1.eat()
+    def main(self):
+        self.move()
+        self.eat()
+        self.breath()
+        print(f"the color from main of this animal is: {self.rang}")
+        
+# my_animal_1 = animal("white", "Veggies")
+# print(f"color of animal 1: {my_animal_1.rang}")
+# my_animal_1.move()
+# my_animal_1.eat()
 
 
-my_animal_2 = animal("Brown", "non-veg")
-my_animal_2.eat()
+my_animal_2 = animal("brown", "veggies")
+# my_animal_2.eat()
+
+
+my_animal_2.main()
