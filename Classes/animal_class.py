@@ -1,6 +1,5 @@
 
-
-class animal:
+class Animal:
     
     def __init__(self, color="red", food_type="none"):
         print("This is init.")
@@ -16,8 +15,7 @@ class animal:
         
     def breath(self):
         print("animal can breathe")
-        
-        
+            
     def main(self):
         self.move()
         self.eat()
@@ -30,7 +28,7 @@ class animal:
 # my_animal_1.eat()
 
 
-my_animal_2 = animal("brown", "veggies")
+my_animal_2 = Animal("brown", "veggies")
 # my_animal_2.eat()
 
 
