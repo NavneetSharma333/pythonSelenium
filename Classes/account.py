@@ -25,6 +25,6 @@ class Account(object):
         return random.randint(0, 100)
     
     
-    account1 = Account(999)
+account1 = Account(999)
     
-
+import pdb; pdb.set_trace()
